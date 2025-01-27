@@ -35,6 +35,11 @@ function Header() {
                   About
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/cryptoDetail/BTC/10">
+                  Crypto Detail
+                </Link>
+              </li>
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
@@ -62,7 +67,7 @@ function Header() {
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="/product/details">
+                    <Link className="dropdown-item" to="/product/details/10">
                       Product Details
                     </Link>
                   </li>

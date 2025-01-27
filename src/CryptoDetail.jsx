@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import { useParams } from "react-router-dom";
 
 const CryptoDetail = () => {
-  return (
-    <div>CryptoDetail</div>
-  )
-}
+  const { cryptoSymbol,id } = useParams();
+  return <div>CryptoDetail
+    <p>Symbol: {cryptoSymbol}</p>
+    <p>ID: {id}</p>
+  </div>;
+};
 
-export default CryptoDetail
+export default CryptoDetail;
